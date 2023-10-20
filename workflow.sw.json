@@ -17,9 +17,9 @@
       "operation": ".result|=.+\"B\""
     },
     {
-      "name": "concatC",
+      "name": "concatD",
       "type": "expression",
-      "operation": ".result|=.+\"C\""
+      "operation": ".result|=.+\"D\""
     }
   ],
   "states": [
@@ -44,10 +44,10 @@
           ]
         },
         {
-          "name": "branchC",
+          "name": "branchD",
           "actions": [
             {
-              "functionRef": "concatC"
+              "functionRef": "concatD"
             }
           ]
         }
